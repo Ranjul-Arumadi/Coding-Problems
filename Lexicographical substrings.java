@@ -19,7 +19,7 @@ Steps:
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class Main {
 
     public static void main(String[] args) {
     
@@ -27,8 +27,9 @@ public class Solution {
     
     String a;
     int b;
-    
+    System.out.println("Enter String: ");
     a = s.next(); //read string
+    System.out.println("Enter sub-string length: ");
     b = s.nextInt(); //read integer (substring size)
     
     int len = a.length()-b+1;  //calculate number of substrings possible 
@@ -40,7 +41,9 @@ public class Solution {
     }
     
     Arrays.sort(A); //sort the array
+    System.out.println("lexicographically lowest substring: ");
     System.out.println(A[0]); //outputs lexicographically lowest substring
+    System.out.println("lexicographically highest substring: ");
     System.out.println(A[len-1]); //outputs lexicographically highest substring
    
     
