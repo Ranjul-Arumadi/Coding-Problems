@@ -13,6 +13,9 @@ Steps:
 5. Iterate throught the string and store the substrings to array in step 4
 6. Sort the array
 7. Value at index 0 gives lexicographically lowest substring and value at index length-1(step 2) gives lexicographically highest substring
+
+
+Output screenshot: https://github.com/Ranjul-Arumadi/Coding-Problems/blob/main/Output%20Screenshots/Lexicographical%20substrings.jpg
 */
 
 /*-------------------------Solution in Java-------------------------*/
