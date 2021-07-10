@@ -8,6 +8,7 @@ Push character by character into the stack
 Popping them will return the string in reverse order
 This way the string can be reversed
 
+Output screenshot: https://github.com/Ranjul-Arumadi/Coding-Problems/blob/main/Output%20Screenshots/Reverse%20string%20using%20stack.jpg
 */
 
 /*-------------------------Solution in C-------------------------*/
