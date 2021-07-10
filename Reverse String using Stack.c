@@ -16,6 +16,7 @@ This way the string can be reversed
 int top=-1;
 int main(){
 	int size,stringLength;
+	char temp;
 	char input[20];
 	printf("Enter string: ");
 	scanf("%s", input);
@@ -38,8 +39,10 @@ int main(){
 			printf("Stack is empty");
 		}
 		else{
-			printf("%c",stack[top--]);
+			temp = stack[top--];
+			input[i] = temp;
 		}
 	}
+	printf("%s",input);
 	return 0;
 }
