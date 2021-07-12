@@ -5,7 +5,7 @@ Notes:
 Storing one letter per node
 Iterate over the nodes while checking if the nodes at end positions are same
 
-Output screenshot: https://github.com/Ranjul-Arumadi/Coding-Problems/blob/main/Output%20Screenshots/Reverse%20string%20using%20stack.jpg
+Output screenshot: https://github.com/Ranjul-Arumadi/Coding-Problems/blob/main/Output%20Screenshots/Doubly%20Linked%20List%20to%20check%20string%20palindrome.png.jpg
 */
 
 /*-------------------------Solution in C-------------------------*/
