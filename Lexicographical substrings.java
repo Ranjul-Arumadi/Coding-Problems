@@ -16,6 +16,7 @@ Steps:
 
 
 Output screenshot: https://github.com/Ranjul-Arumadi/Coding-Problems/blob/main/Output%20Screenshots/Lexicographical%20substrings.jpg
+test
 */
 
 /*-------------------------Solution in Java-------------------------*/
