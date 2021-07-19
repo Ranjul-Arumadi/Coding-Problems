@@ -1,6 +1,6 @@
 # Coding-Problems
 
-Explaining some interesting questions I have come across from popular coding challenge websites.
+Explaining some interesting questions I have come across popular coding challenge websites.
 
 Each question includes:
 1. Proper question statement
