@@ -9,4 +9,4 @@ Each question includes:
 4. Ouput screenshot
 
 
-Hope you find this repo. useful😊. Have a good question that you feel should be added?. Create a PR and contribute😀. 
+Hope you find this repo. useful😊. Have a good question that you feel should be added?. Create a PR and contribut❤. 
