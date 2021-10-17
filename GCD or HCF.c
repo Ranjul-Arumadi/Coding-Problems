@@ -45,6 +45,6 @@ int main()
         }
     }
 
-    printf("\nGCD of %d and %d is :%d ",a,b,a);
+    printf("\nGCD of is :%d ",a);
     return 0;
 }
