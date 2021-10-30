@@ -4,12 +4,8 @@ long repeatedString(char* s, long n) {
     char a[100];
     int len = strlen(s);
     int i=0,pos=0;
-    long nc = n;
-
-
-    printf("len: %d\n",len);
-    printf("n: %ld\n",n);   
-    while(nc!=pos){
+  
+    while(n!=pos){
         a[pos++] = s[i++];
         if(i==len){
             i=0;
@@ -18,7 +14,6 @@ long repeatedString(char* s, long n) {
 
     int count=0;
     for(int j=0;j<n;j++){
-        printf("%c",a[j]);
         if(a[j]=='a'){
             count++;
         }
