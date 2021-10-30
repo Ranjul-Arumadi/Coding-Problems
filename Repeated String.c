@@ -1,25 +1,35 @@
 #include <stdio.h>
 #include<string.h>
 long repeatedString(char* s, long n) {
-    char a[100];
     int len = strlen(s);
-    int i=0,pos=0;
-  
-    while(n!=pos){
-        a[pos++] = s[i++];
-        if(i==len){
-            i=0;
-        }
+    if(len==1){
+        return n;
     }
-
-    int count=0;
-    for(int j=0;j<n;j++){
-        if(a[j]=='a'){
-            count++;
+    else{
+        int times;
+        times = n/len;
+        int freq=0;
+        for(int i=0;i<len;i++){
+            if(s[i]=='a'){
+                freq++;
+            }
+        } 
+        //printf("\n freq = %d",freq);
+        int remPos,extrafreq=0;
+        remPos = n - (times*len);
+        for(int i=0;i<remPos;i++){
+            if(s[i]=='a'){
+                extrafreq++;    
+            }
+            
         }
+        //printf("\n extrafreq = %d",extrafreq);
+        int total;
+        //printf("\n totalfreq = %d",times*freq);
+        total = extrafreq + (times*freq);
+        return total;
     }
-    printf("\ncount = %d",count);
-
+     
 }
 
 int main()
