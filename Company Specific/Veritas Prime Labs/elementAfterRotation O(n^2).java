@@ -29,7 +29,7 @@ class elementAfterRotation{
 		*/
 		
 		/*  O(n^2) approach  
-			Since right rotate, save the last elemnt and perform right shifts for rotate value times
+			Since right rotate, save the last elemnt and perfrom shifts
 		*/
 		int temp=0;
 		while(rot!=0){
@@ -42,10 +42,9 @@ class elementAfterRotation{
 		}
 		
 		System.out.println("value is: "+ arr[index]);
+		
+		
+		
+		
     }
-  
 }
-      
-      
-      
-      
