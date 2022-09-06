@@ -29,7 +29,7 @@ class Solution {
             if(x=='R'){
                 r++;
             }
-            else if(x=='L'){
+            else{
                 l++;
             }
             
