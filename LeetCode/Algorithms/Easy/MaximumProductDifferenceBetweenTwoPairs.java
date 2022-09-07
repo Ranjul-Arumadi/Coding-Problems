@@ -17,9 +17,9 @@
 	Explanation: We can choose indices 1 and 3 for the first pair (6, 7) and indices 2 and 4 for the second pair (2, 4).
 	The product difference is (6 * 7) - (2 * 4) = 34.
 */
-
+//O(N*LogN) solution
 import java.util.*;
-class maximumProductDifferenceBetweenTwoPairs{
+class MaximumProductDifferenceBetweenTwoPairs{
     public static void main(String [] args){
         int nums[] = {5,6,2,7,4};
 		Arrays.sort(nums);
@@ -33,4 +33,19 @@ class maximumProductDifferenceBetweenTwoPairs{
 		int diff = (d3*d4) - (d1*d2);
 		System.out.println(diff);
 	}
+}
+//O(Log n) solution
+public int maxProductDifference(int[] nums) {
+	int largest = 0, secondLargest = 0, smallest = Integer.MAX_VALUE, secondSmallest = Integer.MAX_VALUE;
+	for(int i=0;i<nums.length;i++) {
+		if(nums[i]>=largest) {
+			secondLargest = largest;
+			largest = nums[i];
+		} else if(nums[i]>secondLargest) secondLargest = nums[i];
+		if(nums[i]<=smallest) {
+			secondSmallest = smallest;
+			smallest = nums[i];
+		} else if(nums[i]<secondSmallest) secondSmallest = nums[i];
+	}
+	return largest * secondLargest - smallest * secondSmallest;
 }
