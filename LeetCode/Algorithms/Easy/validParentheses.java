@@ -32,6 +32,19 @@ class Solution {
             return false;
         }
     }
+  /*
+    opening - push
+    closing - pop
+    
+    if input size < 2 - then false
+    
+    while pushing a closing paranthesis:
+      - IF NOT matching(check match of stack top and present pushing parenthesis) then false
+      - else pop
+       
+    at the end is stack empty - true
+    else - false
+  */
     public boolean isValid(String s) {
         Stack<Character> st = new Stack<Character>();
         int l = s.length();
